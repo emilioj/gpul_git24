@@ -1,5 +1,7 @@
 TARGET=ola
 
+CFLAGS=-O2 -march=native -Wall -Wextra
+
 $(TARGET):
 
 clean:
